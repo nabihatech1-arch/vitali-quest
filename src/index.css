@@ -9,32 +9,45 @@ All colors MUST be HSL.
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 221 14% 8%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 221 14% 8%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 221 14% 8%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Vibrant fitness-inspired primary colors */
+    --primary: 162 88% 35%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 162 88% 45%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 38 100% 58%;
+    --secondary-foreground: 221 14% 8%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 210 30% 96%;
+    --muted-foreground: 221 14% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 14 91% 62%;
+    --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 214 31% 91%;
+    --input: 214 31% 91%;
+    --ring: 162 88% 35%;
+
+    /* Gradients for fitness vibes */
+    --gradient-primary: linear-gradient(135deg, hsl(162 88% 35%), hsl(162 88% 45%));
+    --gradient-hero: linear-gradient(135deg, hsl(162 88% 35%), hsl(38 100% 58%));
+    --gradient-accent: linear-gradient(135deg, hsl(14 91% 62%), hsl(38 100% 58%));
+    
+    /* Fitness-specific colors */
+    --energy: 38 100% 58%;
+    --vitality: 162 88% 35%;
+    --strength: 14 91% 62%;
+    --wellness: 200 84% 55%;
 
     --radius: 0.5rem;
 
